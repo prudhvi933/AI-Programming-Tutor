@@ -1,0 +1,49 @@
+
+{
+  "bubble_sort": {
+    "title": "Bubble Sort",
+    "difficulty": "Hard",
+    "category": "Algorithms",
+    "description": "Implement bubble sort algorithm to sort a list.",
+    "function_name": "bubble_sort",
+    "parameters": "numbers",
+    "test_cases": [
+      {
+        "input": "[5, 2, 8, 1]",
+        "expected": "[1, 2, 5, 8]"
+      },
+      {
+        "input": "[3, 3, 1]",
+        "expected": "[1, 3, 3]"
+      }
+    ],
+    "hints": [
+      "Compare adjacent elements",
+      "Swap if wrong order",
+      "Repeat until sorted"
+    ]
+  },
+  "binary_search": {
+    "title": "Binary Search",
+    "difficulty": "Hard",
+    "category": "Algorithms",
+    "description": "Implement binary search on sorted list.",
+    "function_name": "binary_search",
+    "parameters": "numbers, target",
+    "test_cases": [
+      {
+        "input": "[1, 3, 5, 7, 9], 5",
+        "expected": "2"
+      },
+      {
+        "input": "[1, 3, 5, 7], 6",
+        "expected": "-1"
+      }
+    ],
+    "hints": [
+      "Divide and conquer",
+      "Check middle element",
+      "Adjust search range"
+    ]
+  }
+}

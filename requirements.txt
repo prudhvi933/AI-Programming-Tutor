@@ -1,7 +1,7 @@
-streamlit==1.31.0
+streamlit
 langchain
 langchain-ollama
-langchain-community==0.0.20
+langchain-community
 pymupdf
 
 chromadb==0.4.22

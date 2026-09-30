@@ -2,7 +2,8 @@ streamlit==1.31.0
 langchain
 langchain-ollama
 langchain-community==0.0.20
-pymupdf==1.23.0
+pymupdf
+
 chromadb==0.4.22
 requests==2.31.0
 streamlit-ace
